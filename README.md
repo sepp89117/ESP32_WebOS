@@ -16,10 +16,28 @@ So much more is possible! I look forward to your participation!
 - ESP32 with connected SD card (SPIFFS will be implemented in the future)
 - Files copied from folder "data" to SD card
 - Partition Scheme: Huge APP
-- Open sketch, select board and upload
+- Open sketch and check lines 10 to 15 in 'ESP32_WebOS.ino' for individual settings
+- Select your ESP32 board and upload
 
 ## Screenshots
-TODO
+<img src="https://github.com/sepp89117/ESP32_WebOS/blob/main/screenshots/desktop_v0.1.png?raw=true"><br>
+<br>
+<img src="https://github.com/sepp89117/ESP32_WebOS/blob/main/screenshots/gpio_ctrl_v0.1.png?raw=true"><br>
+Set GPIO modes and values! Settings are saved on SD! The read values ​​are updated every second.<br>
+<br>
+<img src="https://github.com/sepp89117/ESP32_WebOS/blob/main/screenshots/file_explorer_v0.1.png?raw=true"><br>
+Download, rename, edit, delete files and directorys by context menu. Upload by drag and drop into File Explorer window.<br>
+<br>
+<img src="https://github.com/sepp89117/ESP32_WebOS/blob/main/screenshots/file_editor_v0.1.png?raw=true"><br>
+<br>
+<img src="https://github.com/sepp89117/ESP32_WebOS/blob/main/screenshots/ble_v0.1.png?raw=true"><br>
+<br>
+<img src="https://github.com/sepp89117/ESP32_WebOS/blob/main/screenshots/ble_details_v0.1.png?raw=true"><br>
+<br>
+<img src="https://github.com/sepp89117/ESP32_WebOS/blob/main/screenshots/calculator_v0.1.png?raw=true"><br>
+<br>
+<img src="https://github.com/sepp89117/ESP32_WebOS/blob/main/screenshots/light_mode_v0.1.png?raw=true"><br>
+And in addition to the dark mode, a light mode is also automatically recognized!<br>
 
 ## External Libraries used
 - [NimBLE-Arduino](https://github.com/h2zero/NimBLE-Arduino) with [Apache-2.0 license](https://github.com/h2zero/NimBLE-Arduino#Apache-2.0-1-ov-file) by [h2zero](https://github.com/h2zero)
