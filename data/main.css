@@ -1,0 +1,169 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: rgb(218, 229, 255);
+    background: radial-gradient(circle, rgba(218, 229, 255, 1) 0%, rgba(181, 192, 217, 1) 100%);
+    overflow: hidden;
+}
+
+fieldset {
+    border-radius: 5px;
+    border: 1px solid #7d7d7d;
+    padding: 10px 15px;
+    margin-bottom: 15px;
+}
+
+header,
+footer {
+    width: 100%;
+    color: rgb(27, 27, 27);
+    text-align: center;
+}
+
+header {
+    padding: 10px 0;
+}
+
+footer {
+    position: absolute;
+    bottom: 5px;
+}
+
+main {
+    padding: 20px;
+}
+
+h1,
+h2 {
+    color: #333;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 10px 0;
+}
+
+table.invisible {
+    background-color: unset;
+    border: none;
+}
+
+table,
+th,
+td {
+    border: 1px solid #ddd;
+}
+
+th,
+td {
+    padding: 6px;
+    text-align: left;
+}
+
+.invisible {
+    background-color: unset;
+    border: none;
+}
+
+.invisible td,
+.invisible th {
+    background-color: unset;
+    border: none;
+}
+
+input,
+select,
+button {
+    padding: 8px;
+    margin: 0 5px;
+    height: 34px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    background-color: #ffffff;
+    color: #000;
+    border: 1px solid #cecece;
+    min-width: 187px;
+    box-shadow: 0 0 5px #00000094;
+    -webkit-transition: background-color 100ms linear, box-shadow 100ms linear;
+    -ms-transition: background-color 100ms linear, box-shadow 100ms linear;
+    transition: background-color 100ms linear, box-shadow 100ms linear;
+}
+
+input:hover,
+select:hover,
+button:hover {
+    background-color: #f1f1f1;
+    box-shadow: 0 0 5px #000000b7;
+}
+
+input[type=button],
+button {
+    border: none;
+    padding: 0 10px;
+    height: 34px;
+    cursor: pointer;
+    min-width: 34px;
+}
+
+input[type=color] {
+    min-width: 34px;
+}
+
+/* Dark Mode Styles */
+@media (prefers-color-scheme: dark) {
+    body {
+        background: rgb(45, 55, 78);
+        background: radial-gradient(circle, rgba(45, 55, 78, 1) 0%, rgba(26, 32, 45, 1) 100%);
+        color: #e0e0e0;
+    }
+
+    fieldset {
+        border: 1px solid #444;
+    }
+
+    header,
+    footer {
+        color: #ffffff;
+    }
+
+    h1,
+    h2 {
+        color: #e0e0e0;
+    }
+
+    table,
+    th,
+    td {
+        border-color: #444;
+    }
+
+    input,
+    select,
+    button {
+        background-color: #2c2c2c;
+        color: #fff;
+        border: 1px solid #313131;
+        box-shadow: 0 0 5px #ffffff36;
+    }
+
+    input:hover,
+    select:hover,
+    button:hover {
+        background-color: #313131;
+        box-shadow: 0 0 5px #ffffff70;
+    }
+
+    input[type=button],
+    button {
+        border: none;
+    }
+}
+
+/* Media Queries für Tablets */
+/* @media (max-width: 768px) {} */
+
+/* Media Queries für Smartphones */
+/* @media (max-width: 480px) {} */
