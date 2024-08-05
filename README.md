@@ -12,7 +12,7 @@ So much more is possible! I look forward to your participation!
 
 ## Requirements
 - Arduino IDE with esp32 platform version 3.0.4
-- Librarys 'NimBLE-Arduino' and 'ESPAsyncWebServer' installed
+- Librarys 'NimBLE-Arduino', 'ESP32Time' and 'ESPAsyncWebServer' installed
 - ESP32 with connected SD card (SPIFFS will be implemented in the future)
 - Files copied from folder "data" to SD card
 - Partition Scheme: Huge APP
@@ -42,6 +42,7 @@ And in addition to the dark mode, a light mode is also automatically recognized!
 ## External Libraries used
 - [NimBLE-Arduino](https://github.com/h2zero/NimBLE-Arduino) with [Apache-2.0 license](https://github.com/h2zero/NimBLE-Arduino#Apache-2.0-1-ov-file) by [h2zero](https://github.com/h2zero)
 - [ESPAsyncWebServer](https://github.com/me-no-dev/ESPAsyncWebServer) without license by [me-no-dev](https://github.com/me-no-dev)
+- [ESP32Time](https://github.com/fbiego/ESP32Time) with [MIT license](https://github.com/fbiego/ESP32Time#MIT-1-ov-file) by [fbiego](https://github.com/fbiego)
 
 ## TODOs
 - Add Apache 2.0 license
